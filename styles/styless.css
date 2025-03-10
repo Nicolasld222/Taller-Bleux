@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-one{
+    display: flex;
+    background-color: #1e172f;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pages-header{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    width: 120%;
+    align-items: center;
+    
+}
+.pages-one{
+    color: #7F778C;
+    text-decoration: none;
+}
+.pages-one :hover{
+    pointer-events: fill;
+    color: white;
+}
+.buttom-download {
+    padding: 15px 25px;
+    background: linear-gradient(to right, #824EBD, #087FD9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: center;
+}
+.header-two{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.back-ground{
+    background: url(/asset/hojasFondo.jpg)no-repeat;
+    width: 50%; 
+    height: 80vh;
+    background-size: 160%;
+    background-position: center;;
+
+}
+.phone{
+    width: 27%;
+    margin: 90px 0px 0px 160px;
+}
+.publicidad{
+    background-color: #2E2550;
+    width: 50%;
+    height: 80vh;
+}
+h1{
+    font-size: 70px;
+    color: white;
+    
+}
+.p-header-pub{
+    color: white;
+    font-size: 23px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.button-right{
+    background-color: #2E2554;
+    border-color: white;
+    color: white;
+    padding: 15px 28px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-left{
+    padding: 15px 23px;
+    font-size: 20px; 
+    background-color: white;
+    color: #F0137A;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buttom-header{
+    padding: 8px;
+    max-width: 321px;
+    border-radius: 5px;
+    border: 2px solid #50486F; 
+}
+.text-pub{
+    max-width: 465px;
+    margin: 20% 0% 0% 40%
+}
+.lap-top{
+    width: 30%;
+}
+.h2-funtions{
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #ea0068;
+}
+.especificaciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 64vh;
+    gap:100px;
+}
+.main-text{
+    max-width: 30%;
+}
+.funtions{
+    height: 70vh;
+    margin-top: 40px;
+}
+.h3-main-text-one{
+    font-size: 45px;
+    color: #F0137A;
+
+}
+.p-main-text{
+    font-size: 15px;
+    margin: 30px 0px 15px 0px;
+    width: 85%;
+}
+.h3-main-text-two{
+    color: #F0137A;
+    font-size: 20px;
+}
+.descript-main{
+    gap: 10px;
+}
+.plans-section{
+    background-color: #1f172f;
+    height: 100vh;
+}
+.info-plans{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-plans{
+    font-size: 55px;
+    margin: 20px 0px 10px 0px;
+}
+.description-plans{
+    font-size: 17px;
+    width: 50%;
+    text-align: center;
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 2%;
+}
+.plan{
+    background-color: white;
+    width: 20%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2%;
+    gap: 1rem;
+    
+}
+
+h4{
+    font-size: 150%;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 5%;
+    background-color: #f5f5f5;
+    justify-content: center;
+}
+.p-price{
+    font-size: 250%;
+}
+.duration{
+    opacity: 0.5;
+}
+.components{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-componets{
+    width: 200px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.especificaciones-one{
+    flex-direction: column;
+}
+.button-buy{
+    padding: 10px 25px;
+    background-color: #2E2550;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.plan:hover{
+    cursor: pointer;
+    .button-buy{
+        background: linear-gradient(to right, #EC63A9, #EC1E8B);
+        color: white;
+        cursor: pointer;
+    }
+    h4{
+        background: linear-gradient(to right, #EC63A9, #EC1E8B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .fa-leaf, .fa-star,.fa-check, .fa-xmark, .fa-briefcase, .fa-cloud{
+        color: #EC63A9;
+    }
+    
+}
+li{
+    list-style: none;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px;
+    justify-content: space-around;
+}
+.redes{
+    gap: 15px;
+    display: flex;
+}
+.footer-one{
+    opacity: 0.7;
+}
+.footer-two{
+    color: #F0137A;
+    opacity: 1;
+    
+}
+
+@media(max-width: 1279px) {
+    .pages-header{
+        width: 100%;
+    }
+    .plan{
+        height: 530px;
+    }
+    .plans-section{
+        height: 100vh;
+    }
+    .description-componets{
+        width: 145px;
+    }
+    .text-pub{
+        margin: 50px 0px 0px 70px;
+    }
+    .phone{
+        width: 32%;
+        margin: 60px 0px 0px 100px;
+    }
+}
+@media (max-width: 920px){
+    .text-pub{
+        margin: 40px 0px 0px 30px;
+    }
+    .back-ground{
+        background-size: 190%;
+        
+    }
+    .plans-section{
+        height: 150vh;
+    }
+    .phone{
+        width: 42%;
+    }
+}
+@media (max-width:768px){
+    .pages-header{
+        gap: 10px;
+    }
+    .h3-main-text-one{
+        font-size: 33px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .buttom-download{
+        padding: 14px 10px;
+    }
+    .header-two{
+        flex-direction: column;
+        min-height: 140vh;
+    }
+    .publicidad{
+        width: 100%;
+    }
+    .back-ground{
+        width: 100%;
+        height: 60vh;
+    }
+    .especificaciones{
+        height: 60vh;
+        gap: 0px;
+    }
+    .phone{
+        width: 30%;
+    }
+    .main-text {
+        max-width: 50%;
+    }
+    .lap-top{
+        width: 50%;
+    }
+    .plans{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .description-plans{
+        width: 100%;
+    }
+    .plans-section {
+        height: 210vh;
+    }
+    .plan{
+        width: 60%;
+    }
+}
+@media (max-width:480px){
+    .header-one{
+        flex-direction: column  ;
+    }
+    .h3-main-text-one{
+        font-size: 30px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .plans-section {
+        height: 330vh;
+    }
+    .text-pub{
+        margin: 42px 4px;
+    }
+    .h2-funtions{
+        font-size: 49px;
+    }
+    .title-plans {
+        font-size: 46px;
+    }
+}
