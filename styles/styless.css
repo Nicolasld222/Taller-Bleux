@@ -148,7 +148,7 @@ h1{
 }
 .plans-section{
     background-color: #1f172f;
-    height: 100vh;
+    height: 90vh;
 }
 .info-plans{
     color: white;
@@ -272,7 +272,7 @@ footer{
         height: 530px;
     }
     .plans-section{
-        height: 100vh;
+        height: 140vh;
     }
     .description-componets{
         width: 145px;
@@ -294,7 +294,7 @@ footer{
         
     }
     .plans-section{
-        height: 150vh;
+        height: 75vh;
     }
     .phone{
         width: 42%;
@@ -346,7 +346,7 @@ footer{
         width: 100%;
     }
     .plans-section {
-        height: 210vh;
+        height: 320vh;
     }
     .plan{
         width: 60%;
@@ -365,7 +365,7 @@ footer{
         gap: 15px;
     }
     .plans-section {
-        height: 330vh;
+        height: 230vh;
     }
     .text-pub{
         margin: 42px 4px;
