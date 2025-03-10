@@ -49,7 +49,7 @@ ul{
     height: 80vh;
 }
 .back-ground{
-    background: url(./)no-repeat;
+    background: url("../asset/hojasFondo.jpg")no-repeat;
     width: 50%; 
     height: 80vh;
     background-size: 160%;
