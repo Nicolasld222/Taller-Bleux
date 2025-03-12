@@ -148,7 +148,7 @@ h1{
 }
 .plans-section{
     background-color: #1f172f;
-    height: 90vh;
+    height: 100vh;
 }
 .info-plans{
     color: white;
@@ -272,7 +272,7 @@ footer{
         height: 530px;
     }
     .plans-section{
-        height: 140vh;
+        height: 100vh;
     }
     .description-componets{
         width: 145px;
@@ -294,7 +294,7 @@ footer{
         
     }
     .plans-section{
-        height: 75vh;
+        height: 100vh;
     }
     .phone{
         width: 42%;
@@ -346,7 +346,7 @@ footer{
         width: 100%;
     }
     .plans-section {
-        height: 320vh;
+        height: 220vh;
     }
     .plan{
         width: 60%;
